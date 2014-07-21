@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274DFED4197D582A0087E08D /* DKModalImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DFECE197D582A0087E08D /* DKModalImageBrowser.m */; };
+		274DFED5197D582A0087E08D /* DKImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DFED1197D582A0087E08D /* DKImageCell.m */; };
+		274DFED6197D582A0087E08D /* DKImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DFED2197D582A0087E08D /* DKImageBrowser.m */; };
 		27E7DA20196A446A006A2D29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E7DA1F196A446A006A2D29 /* Foundation.framework */; };
 		27E7DA22196A446A006A2D29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E7DA21196A446A006A2D29 /* CoreGraphics.framework */; };
 		27E7DA24196A446A006A2D29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E7DA23196A446A006A2D29 /* UIKit.framework */; };
@@ -43,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		274DFECE197D582A0087E08D /* DKModalImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKModalImageBrowser.m; sourceTree = "<group>"; };
+		274DFECF197D582A0087E08D /* DKModalImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKModalImageBrowser.h; sourceTree = "<group>"; };
+		274DFED0197D582A0087E08D /* DKImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKImageCell.h; sourceTree = "<group>"; };
+		274DFED1197D582A0087E08D /* DKImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKImageCell.m; sourceTree = "<group>"; };
+		274DFED2197D582A0087E08D /* DKImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKImageBrowser.m; sourceTree = "<group>"; };
+		274DFED3197D582A0087E08D /* DKImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKImageBrowser.h; sourceTree = "<group>"; };
 		27E7DA1C196A446A006A2D29 /* CBProfilePhotoView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBProfilePhotoView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E7DA1F196A446A006A2D29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27E7DA21196A446A006A2D29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -193,16 +202,14 @@
 		27E7DA69196A478D006A2D29 /* 3rd party library */ = {
 			isa = PBXGroup;
 			children = (
-				27E7DA81196A6CD1006A2D29 /* DKImageBrowser */,
+				274DFECE197D582A0087E08D /* DKModalImageBrowser.m */,
+				274DFECF197D582A0087E08D /* DKModalImageBrowser.h */,
+				274DFED0197D582A0087E08D /* DKImageCell.h */,
+				274DFED1197D582A0087E08D /* DKImageCell.m */,
+				274DFED2197D582A0087E08D /* DKImageBrowser.m */,
+				274DFED3197D582A0087E08D /* DKImageBrowser.h */,
 			);
 			name = "3rd party library";
-			sourceTree = "<group>";
-		};
-		27E7DA81196A6CD1006A2D29 /* DKImageBrowser */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DKImageBrowser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,7 +320,10 @@
 			files = (
 				27E7DA2C196A446A006A2D29 /* main.m in Sources */,
 				27E7DA30196A446A006A2D29 /* CBAppDelegate.m in Sources */,
+				274DFED4197D582A0087E08D /* DKModalImageBrowser.m in Sources */,
 				27E7DA56196A4492006A2D29 /* CBProfilePhotoViewCell.m in Sources */,
+				274DFED5197D582A0087E08D /* DKImageCell.m in Sources */,
+				274DFED6197D582A0087E08D /* DKImageBrowser.m in Sources */,
 				27E7DA59196A44A6006A2D29 /* CBProfilePhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
